@@ -7,9 +7,6 @@ body {
   min-height: 100vh;
   margin: 0; 
   padding: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 .header {
@@ -27,4 +24,51 @@ body {
 .container {
   max-width: 1440px;
   margin: 0 auto;
+  border: 1px solid rgb(228, 31, 211);
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 50%;
+  border: 1px solid rgb(28, 165, 73);
+}
+
+#profile{
+  flex-basis: 100%; 
+  height:max-content;
+  border: 2px solid rgb(87, 14, 221);
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  transition: .5s;
+}
+
+.nav-item a{
+  text-decoration: none;
+  font-family: 'Rubik';
+  font-weight: 500;
+  color: #6d6d6d;
+}
+
+.nav-item a:hover {
+  color: #000000;
 }
