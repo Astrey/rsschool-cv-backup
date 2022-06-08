@@ -3,14 +3,21 @@
 
 <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, height=device-height, width=1100, user-scalable=yes">
+    <meta content='true' name='HandheldFriendly'/>
+    <meta content='width' name='MobileOptimized'/>
     <title>Anna Glukhova</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="assets/svg/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Gentium+Plus&family=Rubik&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!--<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Rubik:wght@300&display=swap" rel="stylesheet">-->
 </head>
 <body>
     <header class="header"> 
@@ -33,31 +40,68 @@
     <main class="main">
         <div class="container main-container">
             <section class="section" id="profile">
-                <h1 class="section-title">Anna Glukhova</h1>
+                <div class="profile-info">
+                    <h1 class="section-title"><span id="myname">Anna Glukhova</span><br>
+                    <span id="myprof"><small>JUNIOR FRONT-END DEVELOPER</small></span></h1></div>
+                <div class="profile-info"><img src="assets/img/profile-pic.png" alt="Anna Glukhova" class="photo" /></div>
             </section>
             <section class="section" id="contacts">
                 <h2 class="section-title">Contacts</h2>
+                <div class="content">
+                    <ul>
+                        <li class="link-item">Russia, Saint-Petersburg</li>
+                        <li class="link-item">Email: <a href="mailto:ann.astrey@gmail.com" class="link">ann.astrey@gmail.com</a></li>
+                        <li class="link-item">Telegram: <a href="https://t.me/beware_astrey" class="link">Anna Glukhova</a></li>
+                    </ul>
+                </div>
             </section>
             <section class="section" id="summary">
                 <h2 class="section-title">Summary</h2>
+                    <div class="content">
+                        <p>To be done</p>
+                    </div>
             </section>
             <section class="section" id="skills">
                 <h2 class="section-title">Skills</h2>
+                <div class="content">
+                    <ul>
+                        <li>Manual testing</li>
+                        <li>Test Automation</li>
+                        <li>API testing</li>
+                        <li>Bug tracking systems</li>
+                        <li>Git</li>
+                        <li>HTML5/CSS</li>
+                        <li>Javascript basics</li>
+                    </ul>
+                </div>
             </section>
             <section class="section" id="code">
                 <h2 class="section-title">Code</h2>
+                <div class="content">
+                    <pre class="code" >
+                        public void clickButtonWithName(String name){
+                            WebElement but = findButtonWithName(name);
+                             if(but != null)
+                                 but.click();
+                         }
+                    </pre>
+                </div>
             </section>
             <section class="section" id="courses">
                 <h2 class="section-title">Cources</h2>
+                <div class="content"></div>
             </section>
             <section class="section" id="projects">
                 <h2 class="section-title">Projects</h2>
+                <div class="content"></div>
             </section>
             <section class="section" id="education">
                 <h2 class="section-title">Education</h2>
+                <div class="content"></div>
             </section>
             <section class="section" id="languages">
                 <h2 class="section-title">Languages</h2>
+                <div class="content"></div>
             </section>
 
         <!--<div class="name">
