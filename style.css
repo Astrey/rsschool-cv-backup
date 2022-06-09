@@ -63,7 +63,7 @@ body {
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 1350px;
   margin: 0 auto;
 }
 
@@ -84,7 +84,7 @@ body {
 }
 
 .content {
-  padding: 0 150px;
+  padding: 0 100px;
   font-family: 'LibreBaskerville', serif;
   font-style: normal;
   font-weight: 300;
