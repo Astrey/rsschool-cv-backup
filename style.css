@@ -90,6 +90,11 @@ body {
   font-weight: 300;
 }
 
+.content-list {
+  width: 600px;
+  padding-inline-start: 20px;
+}
+
 .section-title {
   font-weight: 100;
   text-align: center;
