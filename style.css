@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: Rubik;
-   src: url("assets/fonts/Rubik-Light.ttf");
+   src: url("assets/fonts/Rubik-VariableFont_wght.ttf");
  }
 
  @font-face {
@@ -21,26 +21,39 @@
 body {
   font-family: 'Rubik', sans-serif;
   min-height: 100vh;
-  margin: 0; 
-  padding: 0;
+  margin: 0 auto;
 }
 
 .header {
-  /*border: 1px solid red;*/
+  background-color: rgb(222, 222, 231);
 }
 
-.main {
-  /*border: 1px solid red;*/
+.nav-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
 }
 
-.footer {
-  /*border: 1px solid red;*/
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  transition: .5s;
+}
+
+.nav-item a {
+  text-decoration: none;
+  font-weight: 400;
+  color: #6d6d6d;
+}
+
+.nav-item a:hover {
+  color: #000000;
 }
 
 .container {
   max-width: 1440px;
   margin: 0 auto;
-  /*border: 1px solid rgb(228, 31, 211);*/
 }
 
 .main-container {
@@ -51,76 +64,69 @@ body {
 .section {
   width: 50%;
   padding-top: 30px;
-  /*border: 1px solid rgb(72, 0, 167);*/
 }
 
 .content {
   padding: 0 150px;
-  /*border: 1px solid rgb(255, 0, 0);*/
   font-family: 'LibreBaskerville', serif;
   font-style: normal;
+  font-weight: 300;
 }
 
 .section-title {
-  font-family: 'Rubik';
-  font-style: normal;
+  font-weight: 100;
   text-align: center;
   font-size: 42px;
-  font-weight: 400;
   margin-bottom: 20px;
 }
 
-
-.nav-list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  list-style: none;
-  padding: 0 0;
-}
-
-.nav-link {
-  padding: 0 20px;
-  line-height: 50px;
-  transition: .5s;
-}
-
-.nav-item a{
-  text-decoration: none;
-  font-family: 'Rubik';
-  font-weight: 500;
-  color: #6d6d6d;
-}
-
-.nav-item a:hover {
-  color: #000000;
-}
-
-.profile-info{
+.profile-info {
   margin: 0 60px;
-  /*border: 2px solid rgb(221, 138, 14);*/
 }
 
-.photo {
+.profile-photo {
   width: 375px;
   border-radius: 50%;
 }
 
-#profile{
+.code {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: normal;
+  font-family: Courier, monospace;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  background-color: rgb(222, 222, 231);
+ }
+
+.footer-image {
+  height: 46px;
+ }
+
+.footer-name {
+  font-size: 14px;
+  padding: 0 20px;
+}
+
+#profile {
   display: flex;
   flex-wrap: nowrap;
-  flex-basis: 100%; 
-  height:max-content;
-  /*border: 2px solid rgb(87, 14, 221);*/
+  flex-basis: 100%;
   align-items: center;
   justify-content: center;
 }
 
-#myname{
+#myname {
   font-size: 56px;
   line-height: 112px;
 }
 
-#myprof{
+#myprof {
   font-size: 30px;
 }
