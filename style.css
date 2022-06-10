@@ -13,18 +13,19 @@
    src: url("assets/fonts/Rubik-VariableFont_wght.ttf");
  }
 
- @font-face {
+@font-face {
   font-family: LibreBaskerville;
   src: url("assets/fonts/LibreBaskerville-Regular.ttf");
  }
 
- @keyframes colormark {
+@keyframes colormark {
   from {background-color: white;}
   to {background-color: var(--main-bg-color);}
   from {background-color: var(--main-bg-color);}
   to {background-color: white;}
 }
 
+/*Body*/
 * {
   box-sizing: border-box;
 }
@@ -35,14 +36,20 @@ body {
   margin: 0 auto;
 }
 
-.header {
-  background-color: var(--main-bg-color);
-}
-
 a { 
   text-decoration: none;
   color: #000000;
- } 
+ }
+
+ ul {
+  list-style-type: circle;
+ }
+
+/*Header*/
+.header {
+  width: 100%;
+  background-color: var(--main-bg-color);
+}
 
 .nav-list {
   display: flex;
@@ -67,9 +74,10 @@ a {
   color: #000000;
 }
 
+/*Main content*/
 .container {
   max-width: 1350px;
-  min-width: 1050px;
+  min-width: 800px;
   margin: 0 auto;
 }
 
@@ -94,10 +102,10 @@ a {
   font-family: 'LibreBaskerville', serif;
   font-style: normal;
   font-weight: 300;
+  word-break: break-word;
 }
 
 .content-list {
-  width: 600px;
   padding-inline-start: 20px;
 }
 
@@ -109,6 +117,14 @@ a {
   letter-spacing: 3px;
 }
 
+.code {
+  font-size: 14px;
+  line-height: 27px;
+  font-weight: normal;
+  font-family: Courier, monospace;
+}
+
+/*Profile*/
 .profile-info {
   margin: 0 60px;
 }
@@ -118,13 +134,21 @@ a {
   border-radius: 50%;
 }
 
-.code {
-  font-size: 18px;
-  line-height: 27px;
-  font-weight: normal;
-  font-family: Courier, monospace;
+.pic-shadow{
+  height: 385px;
+  border-radius: 50%;
+  background-color: var(--main-bg-color);
 }
 
+#profile {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-basis: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+/*Footer*/
 .footer {
   display: flex;
   justify-content: center;
@@ -141,14 +165,6 @@ a {
 .footer-name {
   font-size: 14px;
   padding: 0 20px;
-}
-
-#profile {
-  display: flex;
-  flex-wrap: nowrap;
-  flex-basis: 100%;
-  align-items: center;
-  justify-content: center;
 }
 
 #myname {
