@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, height=device-height, width=1100, user-scalable=yes">
+    <meta content='true' name='HandheldFriendly'/>
+    <meta content='width' name='MobileOptimized'/>
+    <title>Anna Glukhova</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/svg/favicon.ico">
+</head>
+<body>
+    <header class="header"> 
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#cources" class="nav-link">Cources</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container main-container">
+            <section class="section" id="profile">
+                <div class="profile-info">
+                    <h1 class="section-title"><span id="myname">Anna Glukhova</span><br>
+                    <span id="myprof"><small>Junior front-end developer</small></span></h1></div>
+                <div class="profile-info">
+                    <img src="assets/img/profile-pic.png" alt="Anna Glukhova" class="profile-photo"/></div>
+            </section>
+            <section class="section bg-colored" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <div class="content">
+                    <ul class="content-list">
+                        <li class="link-item">Russia, Saint Petersburg</li>
+                        <li class="link-item">Email: <a href="mailto:ann.astrey@gmail.com" class="link">ann.astrey@gmail.com</a></li>
+                        <li class="link-item">Telegram: <a href="https://t.me/beware_astrey" class="link">@beware_astrey</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="section bg-colored" id="summary">
+                <h2 class="section-title">Summary</h2>
+                <div class="content">
+                    <p>I am a QA engineer in a telecommunication area with 6 years experience. Before it I worked as a layout designer in an online education area, 
+                        I created layouts via xml and flash animation.<br>
+                        I have good technical skills (networks, protocols, linux), also I am accurate, punctual and creative. 
+                        I think it will help me on my way of becoming a frontend developer.
+                    </p>
+                </div>
+            </section>
+            <section class="section bg-colored" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <div class="content">
+                    <ul class="content-list">
+                        <li>Manual testing</li>
+                        <li>Test Automation</li>
+                        <li>API testing</li>
+                        <li>Bug tracking systems</li>
+                        <li>Git</li>
+                        <li>HTML5/CSS</li>
+                        <li>Javascript basics</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="section bg-colored" id="code">
+                <h2 class="section-title">Code</h2>
+                <div class="content">
+                    <pre class="code" >
+public void clickButtonWithName(String name){
+    WebElement but = findButtonWithName(name);
+        if(but != null)
+            but.click();
+}
+                    </pre>
+                </div>
+            </section>
+            <section class="section bg-colored" id="cources">
+                <h2 class="section-title">Cources</h2>
+                <div class="content">
+                    <ul class="content-list">
+                        <li><a href="https://coursera.org/share/cac4959e55e945afe4a8e9010d07c069" target="_blank">Java Programming: Solving Problems with Software</a></li>
+                        <li><a href="https://coursera.org/share/b65ce8d8c4da69536deb5d5ae125f824" target="_blank">Programming Foundations with JavaScript, HTML and CSS</a></li>
+                        <li><a href="https://www.codecademy.com/learn/introduction-to-javascript" target="_blank">Learn JavaScript (in progress)</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="section bg-colored" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <div class="content">
+                    <a href="https://astrey.github.io/" target="_blank">My first github pages deploy ever</a>
+                </div>
+            </section>
+            <section class="section bg-colored" id="education">
+                <h2 class="section-title">Education</h2>
+                <div class="content">
+                    <p>Automation and computer technology</p>
+                    <ul class="content-list">
+                        <li>Novosibirsk State Technical Univercity - <br>Bachelor’s Degree</li>
+                        <li>Saint Petersburg Electrotechnical University - <br>Specialist Degree</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="section bg-colored" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <div class="content">
+                    <ul class="content-list">
+                        <li>Russian - native</li>
+                        <li>English - intermediate</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div>
+            <a href="https://github.com/astrey" target="_blank">
+                <img src="assets/svg/github_git_icon.ico" class="footer-image" alt="github">
+            </a>
+        </div>
+        <div>
+            <span class="footer-name">©2022 Anna Glukhova</span>
+            <a href="https://rs.school/js/" target="_blank"><img src="assets/svg/rs_school_js.svg" class="footer-image" alt="rs_school_js"></a>
+        </div>
+    </footer>
+</body>
+</html>
